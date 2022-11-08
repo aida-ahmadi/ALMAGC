@@ -14,7 +14,7 @@ from astropy import units as u
 from astropy.coordinates import SkyCoord
 import plotly.express as px
 import plotly.graph_objects as go
-from matplotlib.patches import Circle, Polygon
+#from matplotlib.patches import Circle, Polygon
 import re
 import dash_bootstrap_components as dbc
 from dash_bootstrap_templates import load_figure_template

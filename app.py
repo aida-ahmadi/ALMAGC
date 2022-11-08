@@ -210,52 +210,52 @@ for m, mol in enumerate(mol_name):
                                              "<extra></extra>"))
                 # fig['layout']['hoverlabel']['bgcolor'] = plotly_colours[m]
             # Plot moment 0 maps as overlays
-            current_fits_list = line_df['fits_files'][s]
-            for f, current_fitsname in enumerate(current_fits_list):
-                current_fits_path = os.path.join(data_path, current_fitsname)
-                if current_fitsname is not None:
-                    with fits.open(current_fits_path) as data:
-                        overlay_df = pd.DataFrame(data[0].data)
-                    overlay_header = fits.getheader(current_fits_path)
-
-                    overlay_x_dim = overlay_header['NAXIS1']
-                    overlay_x_ref_pix = overlay_header['CRPIX1']
-                    overlay_x_ref_val = overlay_header['CRVAL1']  # glon
-                    overlay_dx_val = overlay_header['CDELT1']  # deg
-                    overlay_x_0_pix = overlay_x_ref_val - overlay_x_ref_pix * overlay_dx_val
-                    if overlay_x_0_pix > 180.0:
-                        overlay_x_0_pix = overlay_x_0_pix - 360
-                    overlay_x_end_pix = overlay_x_0_pix + overlay_dx_val * overlay_x_dim
-                    overlay_y_ref_pix = overlay_header['CRPIX2']
-                    overlay_y_ref_val = overlay_header['CRVAL2']  # glat
-                    overlay_dy_val = overlay_header['CDELT2']  # deg
-                    overlay_y_0_pix = overlay_y_ref_val - overlay_y_ref_pix * overlay_dy_val
-                    fig.add_trace(go.Heatmap(z=overlay_df,
-                                             x0=overlay_x_0_pix,
-                                             dx=overlay_dx_val,
-                                             y0=overlay_y_0_pix,
-                                             dy=overlay_dy_val, showscale=False, name=line_df['covered_lines'][s],
-                                             legendgroup=line_df['covered_lines'][s],
-                                             visible='legendonly',
-                                             hovertemplate=
-                                             "<b>"+line_df['covered_lines'][s]+"</b><br><br>" +
-                                             "<b>Longitude:</b> %{x:.5f} deg<br>" +
-                                             "<b>Latitude:</b> %{y:.5f} deg<br>" +
-                                             "<b>Integrated intensity:</b> %{z:.5f} Jy/beam.km/s <br>" +
-                                             "<b>Integration range:</b> " + str(line_df['freq_ranges'][s]) + " GHz<br><br>" +
-                                             "<b>Project code:</b> " + str(line_df['proposal_id'][s]) + "<br>" +
-                                             "<b>ALMA source name:</b> " + str(line_df['target_name'][s]) + "<br>" +
-                                             "<b>Angular resolution:</b> {:.2f}".format(
-                                                 line_df['ang_res_arcsec'][s]) + " arcsec<br>" +
-                                             "<b>Spectral resolution:</b> {:.2f}".format(
-                                                 line_df['vel_res_kms'][s]) + " km/s<br>" +
-                                             "<b>MOUS ID:</b> " + str(line_df['MOUS_id'][s]) + "<br>" +
-                                             "<b>Archive URL:</b> " + str(line_df['access_url'][s]) + "<br>" +
-                                             "<extra></extra>",
-                                             customdata=np.array(line_df['access_url'][s]),
-                                             hoverlabel={'bgcolor': plotly_colours[m]}
-                                             ))
-                    data.close(current_fitsname)
+#             current_fits_list = line_df['fits_files'][s]
+#             for f, current_fitsname in enumerate(current_fits_list):
+#                 current_fits_path = os.path.join(data_path, current_fitsname)
+#                 if current_fitsname is not None:
+#                     with fits.open(current_fits_path) as data:
+#                         overlay_df = pd.DataFrame(data[0].data)
+#                     overlay_header = fits.getheader(current_fits_path)
+# 
+#                     overlay_x_dim = overlay_header['NAXIS1']
+#                     overlay_x_ref_pix = overlay_header['CRPIX1']
+#                     overlay_x_ref_val = overlay_header['CRVAL1']  # glon
+#                     overlay_dx_val = overlay_header['CDELT1']  # deg
+#                     overlay_x_0_pix = overlay_x_ref_val - overlay_x_ref_pix * overlay_dx_val
+#                     if overlay_x_0_pix > 180.0:
+#                         overlay_x_0_pix = overlay_x_0_pix - 360
+#                     overlay_x_end_pix = overlay_x_0_pix + overlay_dx_val * overlay_x_dim
+#                     overlay_y_ref_pix = overlay_header['CRPIX2']
+#                     overlay_y_ref_val = overlay_header['CRVAL2']  # glat
+#                     overlay_dy_val = overlay_header['CDELT2']  # deg
+#                     overlay_y_0_pix = overlay_y_ref_val - overlay_y_ref_pix * overlay_dy_val
+#                     fig.add_trace(go.Heatmap(z=overlay_df,
+#                                              x0=overlay_x_0_pix,
+#                                              dx=overlay_dx_val,
+#                                              y0=overlay_y_0_pix,
+#                                              dy=overlay_dy_val, showscale=False, name=line_df['covered_lines'][s],
+#                                              legendgroup=line_df['covered_lines'][s],
+#                                              visible='legendonly',
+#                                              hovertemplate=
+#                                              "<b>"+line_df['covered_lines'][s]+"</b><br><br>" +
+#                                              "<b>Longitude:</b> %{x:.5f} deg<br>" +
+#                                              "<b>Latitude:</b> %{y:.5f} deg<br>" +
+#                                              "<b>Integrated intensity:</b> %{z:.5f} Jy/beam.km/s <br>" +
+#                                              "<b>Integration range:</b> " + str(line_df['freq_ranges'][s]) + " GHz<br><br>" +
+#                                              "<b>Project code:</b> " + str(line_df['proposal_id'][s]) + "<br>" +
+#                                              "<b>ALMA source name:</b> " + str(line_df['target_name'][s]) + "<br>" +
+#                                              "<b>Angular resolution:</b> {:.2f}".format(
+#                                                  line_df['ang_res_arcsec'][s]) + " arcsec<br>" +
+#                                              "<b>Spectral resolution:</b> {:.2f}".format(
+#                                                  line_df['vel_res_kms'][s]) + " km/s<br>" +
+#                                              "<b>MOUS ID:</b> " + str(line_df['MOUS_id'][s]) + "<br>" +
+#                                              "<b>Archive URL:</b> " + str(line_df['access_url'][s]) + "<br>" +
+#                                              "<extra></extra>",
+#                                              customdata=np.array(line_df['access_url'][s]),
+#                                              hoverlabel={'bgcolor': plotly_colours[m]}
+#                                              ))
+#                     data.close(current_fitsname)
 
 
 # Plot only unique legend names (transitions)

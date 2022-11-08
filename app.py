@@ -179,12 +179,12 @@ for m, mol in enumerate(mol_name):
     line_df['s_region_gal_yscatter'] = line_df['s_region_gal_scatter'].str[1]
 
     # Check if fits file names contain the target name and MOUS ID and write the fits filename to a new column
-    line_df['fits_files'] = line_df.apply(lambda x: add_moment_fitsname(x.MOUS_id, x.target_name, fits_files), axis=1)
+#     line_df['fits_files'] = line_df.apply(lambda x: add_moment_fitsname(x.MOUS_id, x.target_name, fits_files), axis=1)
 
     # Check if fits file names contain the target name and MOUS ID and write the fits filename to a new column
-    line_df['freq_ranges'] = line_df['fits_files'].apply(add_freq_ranges)
+#     line_df['freq_ranges'] = line_df['fits_files'].apply(add_freq_ranges)
 
-    line_df.to_csv("./assets/Tables/alma_cmz_2deg_{}_fitsinfo.csv".format(mol))
+#     line_df.to_csv("./assets/Tables/alma_cmz_2deg_{}_fitsinfo.csv".format(mol))
 
     regions = []
     for s in range(len(line_df['s_region_gal_xscatter'])):

@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 5.0.4
+     http://www.astropy.org/ -->
+<VOTABLE version="1.4" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/VOTable-1.4.xsd">
+ <RESOURCE type="results">
+  <TABLE>
+   <FIELD ID="covered_lines" arraysize="9" datatype="unicodeChar" name="covered_lines"/>
+   <FIELD ID="project_code" arraysize="14" datatype="unicodeChar" name="project_code"/>
+   <FIELD ID="ALMA_source_name" arraysize="18" datatype="unicodeChar" name="ALMA_source_name"/>
+   <FIELD ID="ang_res_arcsec" datatype="double" name="ang_res_arcsec"/>
+   <FIELD ID="vel_res_kms" datatype="double" name="vel_res_kms"/>
+   <FIELD ID="access_url" arraysize="64" datatype="unicodeChar" name="access_url"/>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2011.0.00217.S</TD>
+      <TD>G0.25+0.02</TD>
+      <TD>1.517</TD>
+      <TD>3.252</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X391d0b/X7b</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2011.0.00017.S</TD>
+      <TD>SgrB2-N</TD>
+      <TD>1.486</TD>
+      <TD>1.634</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X327408/X10</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2012.1.00635.S</TD>
+      <TD>SgrA_star</TD>
+      <TD>0.443</TD>
+      <TD>0.826</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X7d1738/X42</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00857.S</TD>
+      <TD>Circumnuclear_Disk</TD>
+      <TD>1.06</TD>
+      <TD>3.787</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X2e1</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00269.S</TD>
+      <TD>SgrB2</TD>
+      <TD>12.868</TD>
+      <TD>1.618</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X4bc</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2013.1.01065.S</TD>
+      <TD>CO-0.30-0.07</TD>
+      <TD>4.639</TD>
+      <TD>0.55</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X136/X7b</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2013.1.00857.S</TD>
+      <TD>Circumnuclear_Disk</TD>
+      <TD>4.612</TD>
+      <TD>1.264</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X2dc</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00269.S</TD>
+      <TD>SgrB2</TD>
+      <TD>2.114</TD>
+      <TD>1.619</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X4ba</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00269.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>2.247</TD>
+      <TD>1.619</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X4ba</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2012.1.00940.S</TD>
+      <TD>CO_-0.40-0.22</TD>
+      <TD>0.23</TD>
+      <TD>0.55</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X6444ba/X21</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2012.1.00635.S</TD>
+      <TD>SgrA_star</TD>
+      <TD>0.555</TD>
+      <TD>0.826</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X7d1738/X3f</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2013.1.00857.S</TD>
+      <TD>Circumnuclear_Disk</TD>
+      <TD>0.827</TD>
+      <TD>1.264</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X2da</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2012.1.00635.S</TD>
+      <TD>SgrA_star</TD>
+      <TD>0.792</TD>
+      <TD>0.826</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X79f8ed/X3f</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00857.S</TD>
+      <TD>Circumnuclear_Disk</TD>
+      <TD>2.76</TD>
+      <TD>3.787</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X2e3</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2013.1.00332.S</TD>
+      <TD>sgrb2_n</TD>
+      <TD>0.501</TD>
+      <TD>0.633</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12b/X15</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2013.1.00332.S</TD>
+      <TD>sgrb2_m</TD>
+      <TD>0.502</TD>
+      <TD>0.633</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12b/X15</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2012.1.00940.S</TD>
+      <TD>CO_-0.40-0.22</TD>
+      <TD>4.056</TD>
+      <TD>0.549</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X6444ba/X23</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00269.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.463</TD>
+      <TD>1.619</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X4b8</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00269.S</TD>
+      <TD>SgrB2</TD>
+      <TD>0.461</TD>
+      <TD>1.619</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X4b8</TD>
+     </TR>
+     <TR>
+      <TD>HCN (8-7)</TD>
+      <TD>2013.1.00126.S</TD>
+      <TD>SgrA_star</TD>
+      <TD>1.106</TD>
+      <TD>1.651</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X122/X411</TD>
+     </TR>
+     <TR>
+      <TD>HCN (8-7)</TD>
+      <TD>2013.1.00126.S</TD>
+      <TD>SgrA_star</TD>
+      <TD>1.106</TD>
+      <TD>1.647</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X122/X411</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00481.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.481</TD>
+      <TD>0.206</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X474</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00481.S</TD>
+      <TD>P1</TD>
+      <TD>0.48</TD>
+      <TD>0.206</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X474</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2012.1.00621.S</TD>
+      <TD>sgra_star</TD>
+      <TD>0.125</TD>
+      <TD>0.823</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X7d1738/X18d</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2012.1.00543.S</TD>
+      <TD>SgrAstar</TD>
+      <TD>16.684</TD>
+      <TD>0.825</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X147/X9b</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2013.1.00617.S</TD>
+      <TD>Clouds_E_and_F</TD>
+      <TD>0.859</TD>
+      <TD>1.27</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X197/Xb7</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2013.1.00617.S</TD>
+      <TD>Cloud_D</TD>
+      <TD>0.896</TD>
+      <TD>1.27</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X197/Xc1</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2012.1.00133.S</TD>
+      <TD>G0.25+0.02</TD>
+      <TD>22.437</TD>
+      <TD>1.098</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X996c88/X5d</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00857.S</TD>
+      <TD>Circumnuclear_Disk</TD>
+      <TD>62.274</TD>
+      <TD>3.783</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X2e7</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.01194.S</TD>
+      <TD>SgrB2_S</TD>
+      <TD>2.273</TD>
+      <TD>0.954</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X11f/X4c</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.01194.S</TD>
+      <TD>G-0.02-0.07</TD>
+      <TD>2.273</TD>
+      <TD>0.954</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X11f/X4c</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.01194.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>2.304</TD>
+      <TD>0.954</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X11f/X4c</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00269.S</TD>
+      <TD>SgrB2</TD>
+      <TD>60.434</TD>
+      <TD>1.618</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X147/X92</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2013.1.00617.S</TD>
+      <TD>Clouds_E_and_F</TD>
+      <TD>3.34</TD>
+      <TD>1.27</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X197/Xb9</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2013.1.00617.S</TD>
+      <TD>Cloud_D</TD>
+      <TD>3.982</TD>
+      <TD>1.27</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X197/Xc3</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2013.1.00857.S</TD>
+      <TD>Circumnuclear_Disk</TD>
+      <TD>12.759</TD>
+      <TD>3.785</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X2e5</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2015.1.01003.S</TD>
+      <TD>sgra_star</TD>
+      <TD>0.321</TD>
+      <TD>1.642</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X2fb/X6e0</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2015.1.01342.S</TD>
+      <TD>sgra</TD>
+      <TD>0.417</TD>
+      <TD>3.31</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X2fe/X13a</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2015.1.01342.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.415</TD>
+      <TD>3.31</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X2fe/X13a</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2015.1.01003.S</TD>
+      <TD>sgra_star</TD>
+      <TD>0.44</TD>
+      <TD>1.642</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X2fb/X6d7</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2012.1.00133.S</TD>
+      <TD>G0.25+0.02</TD>
+      <TD>0.657</TD>
+      <TD>1.099</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X758152/X8</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2012.1.00133.S</TD>
+      <TD>J1745-2900</TD>
+      <TD>4.359</TD>
+      <TD>1.098</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X758152/Xa</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2012.1.00133.S</TD>
+      <TD>G0.25+0.02</TD>
+      <TD>4.097</TD>
+      <TD>1.098</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X758152/Xa</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2012.1.00543.S</TD>
+      <TD>J1745-2900</TD>
+      <TD>0.455</TD>
+      <TD>1.637</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X684eb5/X20e</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2012.1.00543.S</TD>
+      <TD>SgrAstar</TD>
+      <TD>0.451</TD>
+      <TD>1.637</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X684eb5/X20e</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2012.1.00543.S</TD>
+      <TD>SgrAstar</TD>
+      <TD>2.342</TD>
+      <TD>1.637</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X684eb5/X210</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2012.1.00635.S</TD>
+      <TD>SgrA_star</TD>
+      <TD>0.391</TD>
+      <TD>0.826</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X7d1738/X45</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2015.1.01329.S</TD>
+      <TD>1.59_complex</TD>
+      <TD>2.469</TD>
+      <TD>1.619</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X2f7/X123</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2015.1.01329.S</TD>
+      <TD>1.3_complex</TD>
+      <TD>2.462</TD>
+      <TD>1.619</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X2f7/X123</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2015.1.01003.S</TD>
+      <TD>sgra_star</TD>
+      <TD>0.446</TD>
+      <TD>1.642</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X2fb/X6da</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2015.1.01003.S</TD>
+      <TD>sgra_star</TD>
+      <TD>0.458</TD>
+      <TD>1.642</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X2fb/X6dd</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2015.1.01342.S</TD>
+      <TD>sgra</TD>
+      <TD>0.169</TD>
+      <TD>3.31</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X2fe/X138</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2015.1.01342.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.165</TD>
+      <TD>3.31</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X2fe/X138</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2017.1.00928.S</TD>
+      <TD>1E1740.7-2942</TD>
+      <TD>11.696</TD>
+      <TD>0.954</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X1963</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs21</TD>
+      <TD>10.39</TD>
+      <TD>0.952</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X16c0</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2016.1.01309.S</TD>
+      <TD>CO-0.40-0.22</TD>
+      <TD>16.747</TD>
+      <TD>0.828</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X88f/X9e</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2013.1.00857.S</TD>
+      <TD>Circumnuclear_Disk</TD>
+      <TD>22.302</TD>
+      <TD>1.264</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X121/X2de</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2016.1.00074.S</TD>
+      <TD>SgrB2-N</TD>
+      <TD>0.52</TD>
+      <TD>1.633</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X87a/X5e0</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2016.1.01309.S</TD>
+      <TD>CO-0.40-0.22</TD>
+      <TD>2.935</TD>
+      <TD>0.828</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X88f/X9a</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_a</TD>
+      <TD>16.654</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12a3/X14a</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_d</TD>
+      <TD>2.672</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X171a</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_c</TD>
+      <TD>16.654</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12a3/X14e</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_d</TD>
+      <TD>16.654</TD>
+      <TD>0.957</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12a3/X150</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.01185.S</TD>
+      <TD>Sgr_B2</TD>
+      <TD>3.318</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12a3/X111</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_c</TD>
+      <TD>2.744</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X1710</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_b</TD>
+      <TD>0.485</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X1704</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_d</TD>
+      <TD>0.443</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X1718</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.01557.S</TD>
+      <TD>HCN-0.085-0.094</TD>
+      <TD>0.715</TD>
+      <TD>1.641</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12c4/X10</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.01557.S</TD>
+      <TD>HCN-0.009-0.044</TD>
+      <TD>0.716</TD>
+      <TD>1.641</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12c4/X10</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.01557.S</TD>
+      <TD>HCN-0.085-0.094</TD>
+      <TD>3.368</TD>
+      <TD>1.641</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12c4/X12</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.01557.S</TD>
+      <TD>HCN-0.009-0.044</TD>
+      <TD>3.368</TD>
+      <TD>1.641</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12c4/X12</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_b</TD>
+      <TD>16.654</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12a3/X14c</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_b</TD>
+      <TD>3.041</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X1706</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2016.1.01430.S</TD>
+      <TD>sgra_star_icrs</TD>
+      <TD>0.197</TD>
+      <TD>0.957</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X128c/Xc</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2016.1.01430.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.199</TD>
+      <TD>0.957</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X128c/Xc</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2016.1.01430.S</TD>
+      <TD>sgra_star_icrs</TD>
+      <TD>0.244</TD>
+      <TD>0.957</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X128c/Xf</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2016.1.01430.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.243</TD>
+      <TD>0.957</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X128c/Xf</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2016.1.01430.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.032</TD>
+      <TD>0.957</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X87c/X484</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2016.1.01430.S</TD>
+      <TD>sgra_star_icrs</TD>
+      <TD>0.033</TD>
+      <TD>0.957</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X87c/X484</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_a</TD>
+      <TD>0.466</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X16fa</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_a</TD>
+      <TD>2.735</TD>
+      <TD>0.957</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X16fc</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2017.1.01500.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.644</TD>
+      <TD>0.953</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X1a54</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs21</TD>
+      <TD>2.484</TD>
+      <TD>0.952</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X16be</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs21</TD>
+      <TD>62.545</TD>
+      <TD>0.952</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12a3/X13a</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs76_c</TD>
+      <TD>0.477</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X170e</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2017.1.00040.S</TD>
+      <TD>cnd_cs21</TD>
+      <TD>0.334</TD>
+      <TD>0.952</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1284/X16bc</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2016.2.00056.S</TD>
+      <TD>gc1_aca</TD>
+      <TD>9.752</TD>
+      <TD>3.74</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1262/X1a5</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.01185.S</TD>
+      <TD>50_kms_cloud</TD>
+      <TD>2.946</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12a3/Xe9</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2018.1.01081.S</TD>
+      <TD>M0.10-0.08</TD>
+      <TD>2.858</TD>
+      <TD>0.825</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X133d/X29b5</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2016.1.01430.S</TD>
+      <TD>sgra_star_icrs</TD>
+      <TD>0.23</TD>
+      <TD>0.957</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X128c/X12</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2016.1.01430.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.229</TD>
+      <TD>0.957</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X128c/X12</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2018.1.01420.S</TD>
+      <TD>the_20_kms_cloud</TD>
+      <TD>0.842</TD>
+      <TD>1.649</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1382/X2d</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2018.1.01420.S</TD>
+      <TD>SgrC</TD>
+      <TD>0.836</TD>
+      <TD>1.649</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1382/X2d</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.01557.S</TD>
+      <TD>HCN-0.009-0.044</TD>
+      <TD>16.664</TD>
+      <TD>1.641</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12c4/X16</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.01557.S</TD>
+      <TD>HCN-0.085-0.094</TD>
+      <TD>16.664</TD>
+      <TD>1.641</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12c4/X18</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2018.1.01081.S</TD>
+      <TD>M0.10-0.08</TD>
+      <TD>0.829</TD>
+      <TD>0.825</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X133d/X29b3</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2018.1.01081.S</TD>
+      <TD>M0.10-0.08</TD>
+      <TD>11.287</TD>
+      <TD>0.825</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X133d/X29b7</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.01185.S</TD>
+      <TD>Sgr_B2</TD>
+      <TD>3.231</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12a3/X109</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2018.1.00659.L</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.018</TD>
+      <TD>1.274</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X133d/X131a</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2018.1.00659.L</TD>
+      <TD>KW_Sgr</TD>
+      <TD>0.018</TD>
+      <TD>1.274</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X133d/X131a</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2018.1.01420.S</TD>
+      <TD>SgrB1off</TD>
+      <TD>0.692</TD>
+      <TD>1.649</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1382/X28</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2018.1.00659.L</TD>
+      <TD>KW_Sgr</TD>
+      <TD>0.234</TD>
+      <TD>1.274</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X133d/X131c</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2018.1.00659.L</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.232</TD>
+      <TD>1.274</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X133d/X131c</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2017.1.01185.S</TD>
+      <TD>50_kms</TD>
+      <TD>3.302</TD>
+      <TD>0.956</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X12a3/X101</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2018.1.00336.S</TD>
+      <TD>J1752-2956</TD>
+      <TD>0.066</TD>
+      <TD>1.64</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X133d/X46b</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2012.1.00628.T</TD>
+      <TD>Sgr_A_star</TD>
+      <TD>1.237</TD>
+      <TD>0.412</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X5a9a13/X793</TD>
+     </TR>
+     <TR>
+      <TD>HCN (4-3)</TD>
+      <TD>2012.1.00635.S</TD>
+      <TD>SgrA_star</TD>
+      <TD>0.168</TD>
+      <TD>0.826</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A002/X5d7935/X2fb</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2019.1.00685.S</TD>
+      <TD>I17455-2800</TD>
+      <TD>11.336</TD>
+      <TD>0.206</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1465/X288d</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2019.1.00685.S</TD>
+      <TD>I17441-2822</TD>
+      <TD>11.343</TD>
+      <TD>0.206</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1465/X288d</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2019.1.00685.S</TD>
+      <TD>I17439-2845</TD>
+      <TD>11.35</TD>
+      <TD>0.206</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1465/X288d</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2019.1.00685.S</TD>
+      <TD>I17439-2845</TD>
+      <TD>1.311</TD>
+      <TD>0.206</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1465/X288b</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2019.1.00685.S</TD>
+      <TD>I17441-2822</TD>
+      <TD>1.311</TD>
+      <TD>0.206</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1465/X288b</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2019.1.00685.S</TD>
+      <TD>I17455-2800</TD>
+      <TD>1.309</TD>
+      <TD>0.206</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1465/X288b</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2019.1.00092.S</TD>
+      <TD>BrickMaser</TD>
+      <TD>0.804</TD>
+      <TD>3.789</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1465/X3a53</TD>
+     </TR>
+     <TR>
+      <TD>HCN (3-2)</TD>
+      <TD>2019.1.00092.S</TD>
+      <TD>BrickMaser</TD>
+      <TD>1.041</TD>
+      <TD>1.107</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1465/X3a43</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2019.1.01266.S</TD>
+      <TD>1E1740.7-2942</TD>
+      <TD>2.674</TD>
+      <TD>0.953</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1469/X285</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2019.1.01781.S</TD>
+      <TD>CO-0.40-0.22</TD>
+      <TD>2.9</TD>
+      <TD>0.477</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1465/X185</TD>
+     </TR>
+     <TR>
+      <TD>HCN (1-0)</TD>
+      <TD>2019.1.01781.S</TD>
+      <TD>CO-0.40-0.22</TD>
+      <TD>0.938</TD>
+      <TD>0.477</TD>
+      <TD>https://almascience.org/datalink/sync?ID=uid://A001/X1465/X183</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,9 @@
+creator_did          = ivo://UNK.AUTH/P/HiPSID/meta
+obs_title            = all_sources_icrs-meta
+dataproduct_type     = meta
+hips_frame           = equatorial
+hips_order           = 11
+hips_tile_width      = 512
+hips_release_date    = 2023-05-12T15:18Z
+hips_version         = 1.4
+hips_builder         = Aladin/HipsGen v12.055

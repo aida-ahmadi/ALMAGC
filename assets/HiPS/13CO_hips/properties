@@ -1,0 +1,46 @@
+creator_did          = ivo://UNK.AUTH/P/HiPSID
+#hips_creator        = HiPS creator (institute or person)
+#hips_copyright      = Copyright mention of the HiPS
+obs_title            = all_sources_icrs
+#obs_collection      = Dataset collection name
+#obs_description     = Dataset text description
+#obs_ack             = Acknowledgement mention
+#prov_progenitor     = Provenance of the original data (free text)
+#bib_reference       = Bibcode for bibliographic reference
+#bib_reference_url   = URL to bibliographic reference
+#obs_copyright       = Copyright mention of the original data
+#obs_copyright_url   = URL to copyright page of the original data
+#t_min               = Start time in MJD ( =(Unixtime/86400)+40587  or https://heasarc.gsfc.nasa.gov/cgi-bin/Tools/xTime/xTime.pl)
+#t_max               = Stop time in MJD
+#obs_regime          = Waveband keyword (Radio Infrared Optical UV X-ray Gamma-ray)
+#em_min              = Start in spectral coordinates in meters ( =2.998E8/freq in Hz, or =1.2398841929E-12*energy in MeV )
+#em_max              = Stop in spectral coordinates in meters
+hips_builder         = Aladin/HipsGen v12.055
+hips_version         = 1.4
+hips_frame           = equatorial
+hips_order           = 11
+hips_order_min       = 0
+hips_tile_width      = 512
+#hips_service_url    = ex: http://yourHipsServer/HiPSID
+hips_status          = public master clonableOnce
+hips_initial_ra      = 266.26996
+hips_initial_dec     = -29.19589
+hips_initial_fov     = 0.0272
+hips_pixel_scale     = 5.591E-5
+s_pixel_scale        = 9.444E-5
+dataproduct_type     = image
+hips_pixel_bitpix    = -32
+data_pixel_bitpix    = -32
+hips_sampling        = bilinear
+hips_overlay         = overlayMean mergeOverwriteTile treeMean
+hips_release_date    = 2023-05-12T15:18Z
+hips_tile_format     = png fits
+hips_pixel_cut       = -1.829 3.141
+hips_data_range      = -5.302 6.231
+moc_sky_fraction     = 2.165E-6
+hipsgen_date         = 2023-05-12T15:18Z
+hipsgen_params       = in=all_sources_icrs out=13CO_hips id=HiPSID pilot=100
+hips_creation_date   = 2023-05-12T15:18Z
+hips_estsize         = 256225
+hips_nb_tiles        = 462
+hips_check_code      = png:538530414 fits:433211367
